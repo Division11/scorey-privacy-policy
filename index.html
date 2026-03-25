@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Scorey</title>
     <style>
-        /* [2026-03-25] Theme Logic: Supports Auto Light/Dark modes */
         :root {
             --bg-body: #f9f9f9;
             --bg-card: #ffffff;
@@ -15,7 +14,6 @@
             --border-color: #eeeeee;
             --accent-line: #f0f0f0;
         }
-
         @media (prefers-color-scheme: dark) {
             :root {
                 --bg-body: #121212;
@@ -27,37 +25,33 @@
                 --accent-line: #2d2d2d;
             }
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: var(--text-main);
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 40px 20px;
             background-color: var(--bg-body);
-            transition: background-color 0.3s ease, color 0.3s ease;
         }
-
         .container {
             background-color: var(--bg-card);
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             border: 1px solid var(--border-color);
         }
-
-        h1 { color: var(--text-heading); font-size: 2.2rem; margin-bottom: 10px; text-align: center; }
-        .last-updated { text-align: center; color: var(--text-muted); margin-bottom: 30px; font-weight: bold; }
-        h2 { color: var(--text-heading); border-bottom: 2px solid var(--accent-line); padding-bottom: 10px; margin-top: 40px; font-size: 1.5rem; }
-        p, li { font-size: 1.05rem; margin-bottom: 15px; }
-        ul { padding-left: 20px; }
-        .footer { margin-top: 50px; text-align: center; font-size: 0.9rem; color: var(--text-muted); border-top: 1px solid var(--border-color); padding-top: 20px; }
+        h1 { color: var(--text-heading); font-size: 2.4rem; margin-bottom: 5px; text-align: center; }
+        .last-updated { text-align: center; color: var(--text-muted); margin-bottom: 40px; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; }
+        h2 { color: var(--text-heading); border-bottom: 1px solid var(--accent-line); padding-bottom: 8px; margin-top: 45px; font-size: 1.6rem; }
+        h3 { color: var(--text-heading); margin-top: 25px; font-size: 1.2rem; }
+        p, li { font-size: 1.05rem; margin-bottom: 18px; text-align: justify; }
+        ul { padding-left: 25px; }
+        .footer { margin-top: 60px; text-align: center; font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid var(--border-color); padding-top: 25px; }
         strong { color: var(--text-heading); }
-
         @media (max-width: 600px) {
-            body { padding: 20px 15px; }
-            .container { padding: 20px; }
+            body { padding: 20px 10px; }
+            .container { padding: 25px; }
             h1 { font-size: 1.8rem; }
         }
     </style>
@@ -66,45 +60,55 @@
 
 <div class="container">
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: March 25, 2026</p>
+    <p class="last-updated">Effective Date: March 25, 2026</p>
 
-    <p>Welcome to <strong>Scorey</strong>. Developed by <strong>Division 11 Studios</strong>, Scorey is a game score calculator designed to respect your privacy. This policy outlines our data practices.</p>
+    <p>This Privacy Policy describes the policies and procedures of <strong>Division 11 Studios</strong> ("the Company," "we," "us," or "our") regarding the collection, use, and disclosure of information when you use the <strong>Scorey</strong> mobile application (the "Service").</p>
 
-    <h2>1. Information We Collect</h2>
+    <h2>1. Introduction</h2>
+    <p>We respect your privacy and are committed to protecting it through compliance with this policy. This Service is designed to function as an anonymous game score calculator. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+    <h2>2. Types of Data Collected</h2>
+    
+    <h3>A. Personal Data</h3>
+    <p>While using our Service, we do not require you to provide any personally identifiable information (PII) to access core functionalities. However, if you choose to utilize the "Contact Us" feature, you may voluntarily provide your email address. This information is used exclusively for support-related correspondence.</p>
+
+    <h3>B. Usage and Device Data</h3>
+    <p>The Service may utilize third-party SDKs, specifically <strong>Google AdMob</strong>, which may collect certain non-personally identifiable information automatically, including but not limited to:</p>
     <ul>
-        <li><strong>Anonymity:</strong> Scorey does not require account creation. You use the app anonymously.</li>
-        <li><strong>Optional Contact Data:</strong> If you use the "Contact Us" feature, you may choose to provide your email address. This is processed via <strong>EmailJS</strong> solely for support purposes.</li>
-        <li><strong>Device Identifiers:</strong> To serve ads, we may access your device's <strong>Advertising ID</strong> (IDFA on iOS, AAID on Android). These are handled by Google AdMob according to their policies.</li>
+        <li>Device identifiers (e.g., IDFA for iOS or AAID for Android).</li>
+        <li>Basic device technical information (OS version, device model).</li>
+        <li>Advertising interaction data.</li>
     </ul>
 
-    <h2>2. Data Storage & Security</h2>
+    <h2>3. Data Storage and Retention</h2>
+    <p><strong>Local Storage:</strong> All user-generated content, including game history and session calculations, is stored locally on the user's device. The Company does not host, sync, or maintain access to this data on external servers.</p>
+    <p><strong>Retention:</strong> Personal information provided via support emails (EmailJS) is retained only for the duration necessary to resolve the inquiry or as required by applicable legal obligations.</p>
+
+    <h2>4. Disclosure of Data</h2>
+    <p>The Company does not sell, trade, or otherwise transfer your information to outside parties. This does not include trusted third parties who assist us in operating our Service, such as:</p>
     <ul>
-        <li><strong>Local Storage:</strong> Your game history is stored exclusively on your device (SharedPreferences). We have no access to this data.</li>
-        <li><strong>Security:</strong> All communication via EmailJS is encrypted in transit using industry-standard TLS/SSL protocols.</li>
+        <li><strong>Google AdMob:</strong> For the provision of advertisements within the Service.</li>
+        <li><strong>EmailJS:</strong> For the secure transmission of support requests.</li>
+        <li><strong>App Store Providers:</strong> Apple Inc. and Google LLC for the processing of In-App Purchases (IAP).</li>
     </ul>
 
-    <h2>3. User Rights & Data Deletion</h2>
-    <p>Since your data is stored locally, you have full control over it. You may delete your game history at any time by:
-    <ul>
-        <li>Clearing the App Data in your device settings.</li>
-        <li>Deleting the App from your device.</li>
-    </ul>
-    If you have sent us an email and wish for it to be deleted from our support inbox, please contact us at the email below.</p>
+    <h2>5. Security of Data</h2>
+    <p>The security of your data is important to us. We employ industry-standard encryption protocols (TLS/SSL) for data in transit through our third-party service providers. However, please be advised that no method of electronic transmission or storage is 100% secure.</p>
 
-    <h2>4. Third-Party Services</h2>
-    <p>We partner with the following services to provide app functionality:</p>
+    <h2>6. Data Subject Rights</h2>
+    <p>You have the right to access, update, or delete the information we have on you. Since your data is stored locally, you may exercise these rights by:</p>
     <ul>
-        <li><strong>Google AdMob:</strong> For advertising and monetization.</li>
-        <li><strong>EmailJS:</strong> For support communication.</li>
-        <li><strong>App Stores:</strong> Apple and Google securely handle all In-App Purchases (IAP).</li>
+        <li>Deleting specific game entries within the App interface.</li>
+        <li>Clearing the App's cache/data via device settings.</li>
+        <li>Uninstalling the App from your mobile device.</li>
     </ul>
 
-    <h2>5. Children's Privacy</h2>
-    <p>Scorey is intended for a general audience. We do not knowingly collect personal data from children under 13. Ads served within the App are filtered for appropriate content.</p>
+    <h2>7. Children's Privacy</h2>
+    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children. If we become aware that we have collected Personal Data from a child without verification of parental consent, we take steps to remove that information from our records.</p>
 
-    <h2>6. Contact Us</h2>
-    <p>For any privacy-related questions, contact us at:<br>
-    <strong>support@division11studios.com</strong></p>
+    <h2>8. Contact Information</h2>
+    <p>For questions or concerns regarding this Privacy Policy, please contact our support team at:</p>
+    <p><strong>Email:</strong> support@division11studios.com</p>
 
     <div class="footer">
         © 2026 Division 11 Studios. All Rights Reserved.
